@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 5%;
+    padding: 0;
+    background-image: url('images/money-background.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2%;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+#balance {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+    padding: 1em;
+}
+
+.product {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.product img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.product h3 {
+    margin: 0.5em 0;
+}
+
+.product p {
+    color: #666;
+}
+
+.product button {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-group {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.buy {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sell {
+    background-color: #f44336;
+    color: white;
+}
+
+#invoice {
+    margin: 2em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 0.5em;
+    border-bottom: 1px solid #ddd;
+}
+
+tfoot td {
+    font-weight: bold;
+}

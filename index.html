@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras de Multimillonario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <header>
+            <h1>Compras de Multimillonario</h1>
+            <div id="balance">Saldo: €<span id="balance-amount">100000000000</span></div>
+        </header>
+
+        <main>
+            <section id="products" class="product-grid">
+                <!-- Los productos se generarán dinámicamente con JavaScript -->
+            </section>
+
+            <section id="invoice">
+                <h2>Factura</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Cantidad</th>
+                            <th>Precio Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="invoice-body">
+                        <!-- Las filas de la factura se generarán dinámicamente -->
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Total Gastado:</td>
+                            <td id="total-spent">€0</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
