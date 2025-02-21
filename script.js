@@ -7,7 +7,7 @@ const products = [
     { id: 5, name: "Libro", price: 15, image: "images/book.jpg" },
     { id: 6, name: "Cena", price: 30, image: "images/lobster-dinner.jpg" },
     { id: 7, name: "Videojuego", price: 50, image: "images/video-game.jpg" },
-    { id: 8, name: "Altavoz", price: 80, image: "images/amazon-echo.jpg"
+    { id: 8, name: "Altavoz", price: 80, image: "images/amazon-echo.jpg" },
     { id: 9, name: "Air Jordans", price: 125, image: "images/air-jordans.jpg" },
     { id: 10, name: "Airpods", price: 199, image: "images/airpods.jpg" },
     { id: 11, name: "Dron", price: 350, image: "images/drone.jpg" },
